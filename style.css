@@ -1,0 +1,360 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+font-family: "Rubik", sans-serif;
+font-style: normal;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua;/ */
+    position: relative;
+}
+.container > nav {
+    height: 100%;
+    width: 6%;
+    background-color: azure;
+    border-right: 1px solid #D1D2D2; 
+    position: relative;
+}
+.iconsdiv{
+    height: 38%;
+    width: 60%;
+    /* background-color: aqua; */
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    border-bottom: 2px solid #DADCE0;
+}
+.menu{
+    height: 40px;
+    width: 40px;
+    color: #70757A;
+    /* background-color: aquamarine; */
+    text-align: center;
+    font-size: 22px;
+    padding-top: 5px;
+    position: absolute;
+    top: 2%;
+    left: 6%;
+}
+.bookmark{
+    height: 40px;
+    width: 40px;
+    color: #70757A;
+    /* background-color: aquamarine; */
+    text-align: center;
+    font-size: 22px;
+    padding-top: 5px;
+    position: absolute;
+    top: 36%;
+    left: 7%;
+}
+.history{
+    height: 40px;
+    width: 40px;
+    color: #70757A;
+    /* background-color: aquamarine; */
+    text-align: center;
+    font-size: 22px;
+    padding-top: 5px;
+    position: absolute;
+    top: 70%;
+    left: 7%;
+}
+.inodrii{
+    
+    height: 15%;
+    width: 62%;
+    /* background-color: #19d28b; */
+    position: relative;
+    position: absolute;
+    top: 48%;
+    left: 17%;
+}
+.indore{
+    height: 45px;
+    width: 45px;
+    color: #70757A;
+    /* background-color: aquamarine; */
+    text-align: center;
+    font-size: 22px;
+    border-radius: 12px;
+    border: 2px solid #1967D2;
+}
+.indored{
+    height: 35px;
+    width: 35px;
+    background-color: #E8F0FE;
+    color: #1967D2;
+    border-radius: 8px;
+    padding: 6px;
+    margin: 3px;
+}
+.inodrii > p{
+    font-size: 12px;
+    padding: 4px;
+    color: #1967D2;
+}
+.adddestination{
+    width: 32%;
+    height: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+    position: absolute;
+    left: 6%;
+    top: 0%;
+}
+.gotoway{
+    width: 90%;
+    height: 10%;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+.best{
+    width: 12%;
+    height: 100%;
+}
+.best > div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 5px;
+    padding: 7px;
+    color: #174EA6;
+}
+.best > p{
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.bycar{
+    width: 12%;
+    height: 100%;
+
+}
+.bycar > div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 5px;
+    padding: 7px;
+    color: #3C4043;
+}
+.bycar > p{
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 7px;
+}
+.bybike{
+    width: 12%;
+    height: 100%;
+}
+.bybike > div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 5px;
+    padding: 7px;
+    color: #3C4043;
+}
+.bybike > p{
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 7px;
+}
+
+.bytrain{
+    width: 12%;
+    height: 100%;
+}
+.bytrain > div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 5px;
+    padding: 7px;
+    color: #3C4043;
+}
+.bytrain > p{
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 7px;
+}
+.bywalk{
+    width: 12%;
+    height: 100%;
+}
+.bywalk > div{
+    width: 35px;
+    height: 35px;
+    /* background-color: #19b6d2; */
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 5px;
+    padding: 7px;
+    color: #3C4043;
+}
+.bywalk > p{
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 7px;
+}
+.bybicycle{
+    width: 12%;
+    height: 100%;
+}
+.bybicycle > div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 5px;
+    padding: 7px;
+    color: #3C4043;
+}
+.bybicycle > p{
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 18px;
+}
+.byflight{
+    width: 12%;
+    height: 100%;
+}
+.byflight > div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 5px;
+    padding: 7px;
+    color: #3C4043;
+}
+.byflight > p{
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 18px;
+}
+.inputtypediv{
+    height: 30%;
+    width: 90%;
+    /* background-color: #1967D2; */
+    border-bottom: 8px solid  #D1D2D2;
+    position: relative;
+    position: absolute;
+    top: 13%;
+    left: 5%;
+}
+#arrowuodown{
+    font-size: 25px;
+    position: absolute;
+    right: 0%;
+    top: 33%;
+    color: #202124;
+}
+.ic{
+    width: 5%;
+    height: 35%;
+    /* background-color: #19c3d2; */
+    position: absolute;
+    top: 20%;
+}
+#more{
+    color: #70757A; 
+}
+#pin{
+    color: #DA3228;  
+}
+.inputsearch{
+    height: 70%;
+    width: 85%;
+    /* background-color: #19c3d2; */
+    position: relative;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+}
+#startingpoint{
+    height: 35%;
+    width: 100%;
+    border-radius: 9px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+#desrination{
+    height: 35%;
+    width: 100%;
+    border-radius: 9px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.leavenow{
+    height: 25%;
+    width: 100%;
+    /* background-color: #D1D2D2; */
+    position: absolute;
+    top: 73%;
+}
+
+.ri-add-circle-line{
+    font-size: 22px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+
+}
+.leavenow > p{
+    font-size: 15px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+
+}
+.ri-arrow-drop-down-fill{
+    font-size: 25px;
+    position: absolute;
+    top: 20%;
+    left: 37%;
+
+}
+.leavenow > h6{
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    color: #1967D2;
+
+}
+.map{
+    height: 100%;
+    width:  62%;
+    background-color: #DA3228;
+    position: absolute;
+    left: 38%;
+    top: 0%;
+    
+}
+.map > iframe{
+    height: 99%;
+    width: 100%; 
+}
